@@ -50,7 +50,7 @@ cp .env.example .env
 docker-compose up --build
 ```
 
-- API → [http://localhost:3000](http://localhost:3005)  
+- API → [http://localhost:3005](http://localhost:3005)  
 - Elasticsearch → [http://localhost:9200](http://localhost:9200)
 
 ---
@@ -120,7 +120,7 @@ services:
   app:
     build: .
     ports:
-      - "3000:3000"
+      - "3005:3005"
     depends_on:
       - elasticsearch
     environment:

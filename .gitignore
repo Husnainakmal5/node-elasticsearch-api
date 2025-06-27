@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+npm-debug.log
+.env
+
+# Logs
+logs/
+*.log
+*.out
+*.gz
+
+# Docker
+*.pid
+Dockerfile*
+docker-compose.override.yml
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+
+# Elasticsearch volumes
+esdata/
+
+# Nodemon config (optional if you're customizing locally)
+nodemon.json
